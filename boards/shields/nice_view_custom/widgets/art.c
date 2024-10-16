@@ -126,7 +126,7 @@ const lv_img_dsc_t balloon = {
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_MOUNTAIN uint8_t
     mountain_map[] = {
-if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
 #else
@@ -234,7 +234,7 @@ const lv_img_dsc_t mountain = {
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_WUKONG uint8_t 
     wukong_map[] = {
-if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
 #else
@@ -328,7 +328,7 @@ const lv_img_dsc_t wukong = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_LONGZHU uint8_t longzhu_map[] = {
- if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
 #else
