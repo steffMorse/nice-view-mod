@@ -38,7 +38,7 @@ const lv_img_dsc_t *anim_imgs[] = {
     &longzhu,
     &skullqr,
     &stagnes,
-    &pikachu
+    &pikachu,
 };
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
