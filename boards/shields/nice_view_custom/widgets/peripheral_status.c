@@ -31,6 +31,10 @@ LV_IMG_DECLARE(skullqr);
 LV_IMG_DECLARE(stagnes);
 LV_IMG_DECLARE(pikachu);
 
+const lv_img_dsc_t *anim_imgs[] = {
+    &corro01,
+};
+
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
 struct peripheral_status_state {
