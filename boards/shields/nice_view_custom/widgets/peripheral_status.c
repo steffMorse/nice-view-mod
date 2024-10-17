@@ -32,7 +32,13 @@ LV_IMG_DECLARE(stagnes);
 LV_IMG_DECLARE(pikachu);
 
 const lv_img_dsc_t *anim_imgs[] = {
-    &corro01,
+    &balloon,
+    &mountain,
+    &wukong,
+    &longzhu,
+    &skullqr,
+    &stagnes,
+    &pikachu
 };
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
