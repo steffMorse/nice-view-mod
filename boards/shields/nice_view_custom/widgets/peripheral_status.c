@@ -25,8 +25,6 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 LV_IMG_DECLARE(balloon);
 LV_IMG_DECLARE(mountain);
-LV_IMG_DECLARE(wukong);
-LV_IMG_DECLARE(longzhu);
 LV_IMG_DECLARE(skullqr);
 LV_IMG_DECLARE(stagnes);
 LV_IMG_DECLARE(pikachu);
@@ -34,8 +32,6 @@ LV_IMG_DECLARE(pikachu);
 const lv_img_dsc_t *anim_imgs[] = {
     &balloon,
     &mountain,
-    &wukong,
-    &longzhu,
     &skullqr,
     &stagnes,
     &pikachu,
@@ -135,7 +131,7 @@ int zmk_widget_status_init(struct zmk_widget_status *widget, lv_obj_t *parent) {
     
     lv_obj_t * art = lv_animimg_create(widget->obj);            //<--
     lv_obj_center(art);                                         //<--
-    lv_animimg_set_src(art, (const void **) anim_imgs, 7);     //<--
+    lv_animimg_set_src(art, (const void **) anim_imgs, 5);     //<--
     lv_animimg_set_duration(art, CONFIG_CUSTOM_ANIMATION_SPEED);//<--
     lv_animimg_set_repeat_count(art, LV_ANIM_REPEAT_INFINITE);  //<--
     lv_animimg_start(art);    
