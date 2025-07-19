@@ -28,6 +28,7 @@ LV_IMG_DECLARE(mountain);
 LV_IMG_DECLARE(skullqr);
 LV_IMG_DECLARE(stagnes);
 LV_IMG_DECLARE(pikachu);
+LV_IMG_DECLARE(newage);
 
 const lv_img_dsc_t *anim_imgs[] = {
     &balloon,
@@ -35,6 +36,7 @@ const lv_img_dsc_t *anim_imgs[] = {
     &skullqr,
     &stagnes,
     &pikachu,
+    &newage,
 };
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
